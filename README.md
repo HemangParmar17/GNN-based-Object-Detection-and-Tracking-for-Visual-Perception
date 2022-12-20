@@ -51,7 +51,7 @@ and training for 232 epochs.
 ## Evaluation
 You can evaluate a trained model on a set of sequences by running:
 ```
-python scripts/evaluate.py 
+python scripts/test.py 
 ```
 
 The weights used and sequences tested are determined by parameters `ckpt_path` and `data_splits.test`, respectively. By default, the weights from the model we provide will be used and the `MOT17` test sequences will be evaluated. The resulting output files yield the following `MOT17 segmenation` metrics on the train/test set:
