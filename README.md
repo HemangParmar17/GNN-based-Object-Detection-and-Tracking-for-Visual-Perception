@@ -23,8 +23,9 @@ named data and output, respectively.
     ```
     bash scripts/setup/download_models.sh
     ```
+You can configure training and evaluation experiments by modifying the options in `configs/config.yaml`. As for preprocessing, all available options can be found in `configs/preprocessing_cfg.yaml`.    
+
  ## Running Experiments
-For all the configuration for pre-processing, training and testing experiments, modify in configs/tracking_cfg.yaml.
 
 For every training/evaluation experiment you can specify a run_id string. This, together with the execution
 date will be used to create an identifier for the experiment being run. A folder named after this identifier, containing
