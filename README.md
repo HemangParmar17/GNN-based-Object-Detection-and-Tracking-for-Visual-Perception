@@ -21,7 +21,7 @@ named data and output, respectively.
 
 5. Download the reid network, [Tracktor](https://arxiv.org/abs/1903.05625)'s object detector, and trained models:
     ```
-    bash scripts/setup/download_models.sh
+    bash main/setup/download_models.sh
     ```
 You can configure training and evaluation experiments by modifying the options in `configs/config.yaml`. As for preprocessing, all available options can be found in `configs/preprocessing_cfg.yaml`.    
 
@@ -35,14 +35,14 @@ model checkpoints, logs and output files will be created  at `$OUTPUT_PATH/exper
 
 Run Pre-Proccessing on MOT17:
 ```
-python scripts/preprocess_detects.py
+python main/preprocess_detects.py
 ```
 All these scripts will store the preprocessed detections in the right locations within $DATA_PATH.
 
 ## Training
 You can train a model by running:
 ```
-python scripts/train.py 
+python main/train.py 
 ```
 The reid network was trained with [torchreid](https://github.com/KaiyangZhou/deep-person-reid), by using ResNet50's
 default configuration with images resized to 128 x 56, adding two fully connected layers (see `resnet50_fc256` in src/mot_neural_solver/models/resnet.py)
@@ -51,7 +51,7 @@ and training for 232 epochs.
 ## Evaluation
 You can evaluate a trained model on a set of sequences by running:
 ```
-python scripts/test.py 
+python main/test.py 
 ```
 
 The weights used and sequences tested are determined by parameters `ckpt_path` and `data_splits.test`, respectively. By default, the weights from the model we provide will be used and the `MOT17` test sequences will be evaluated. The resulting output files yield the following `MOT17 segmenation` metrics on the train/test set:
@@ -69,10 +69,10 @@ To do so, we divide `MOT17` sequences in 3 sets of train/val splits. For every c
 You can train and evaluate models in this manner by running:
 ```
 RUN_ID=your_config_name
-python scripts/train.py with run_id=$RUN_ID cross_val_split=1
-python scripts/train.py with run_id=$RUN_ID cross_val_split=2
-python scripts/train.py with run_id=$RUN_ID cross_val_split=3
-python scripts/cross_validation.py with run_id=$RUN_ID
+python main/train.py with run_id=$RUN_ID cross_val_split=1
+python main/train.py with run_id=$RUN_ID cross_val_split=2
+python main/train.py with run_id=$RUN_ID cross_val_split=3
+python main/cross_validation.py with run_id=$RUN_ID
 ```
 
 ## Citation
