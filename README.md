@@ -79,6 +79,14 @@ python main/train.py with run_id=$RUN_ID cross_val_split=3
 python main/cross_validation.py with run_id=$RUN_ID
 ```
 
+## Visualization
+
+For the visual results by running:
+
+```
+python Visualization/Visualization.py
+```
+
 ## Citation
  ```
    @InProceedings{braso_2020_CVPR,
