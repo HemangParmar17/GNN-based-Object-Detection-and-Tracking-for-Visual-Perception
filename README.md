@@ -3,9 +3,10 @@
 This the official implementation of our paper GNN-based Object Detection and Tracking for Visual Perception [Anas Hamid Ali], [Hemangkumar Parmar], [Kavish Narula]] and
 [Dr. Akilan Thangarajah]. December, 2022.
 
-<p >
-   <img align="center" src = "![MOT17Segmentation](https://user-images.githubusercontent.com/95194114/208705240-c3226768-0a8e-4b86-b293-3339ab9a40ee.gif)"/>
-</p>
+<p>
+   <img align = "center" src = "https://github.com/HemangParmar17/GNN-based-Object-Detection-and-Tracking-for-Visual-Perception/blob/main/Visualization/MOT17Segmentation.gif"/> </p>
+![MOT17Segmentation](https://user-images.githubusercontent.com/95194114/208705240-c3226768-0a8e-4b86-b293-3339ab9a40ee.gif)
+
 1. Clone and enter the repository
 
 2. Create an [Anaconda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
