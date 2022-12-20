@@ -4,7 +4,7 @@ This the official implementation of our paper GNN-based Object Detection and Tra
 [Dr. Akilan Thangarajah]. December, 2022.
 
 <p>
-   <img align = "right" src = "https://github.com/HemangParmar17/GNN-based-Object-Detection-and-Tracking-for-Visual-Perception/blob/main/Visualization/MOT17Segmentation.gif"/> </p>
+   <img align = "center" src = "https://github.com/HemangParmar17/GNN-based-Object-Detection-and-Tracking-for-Visual-Perception/blob/main/Visualization/MOT17Segmentation.gif"/> </p>
 
 
 1. Clone and enter the repository
