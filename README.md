@@ -87,7 +87,7 @@ For the visual results by running:
 python Visualization/Visualization.py
 ```
 
-## Citation
+## References
  ```
    @InProceedings{braso_2020_CVPR,
     author={Guillem Brasó and Laura Leal-Taixé},
