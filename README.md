@@ -3,7 +3,7 @@
 This the official implementation of our paper GNN-based Object Detection and Tracking for Visual Perception [Anas Hamid Ali], [Hemangkumar Parmar], [Kavish Narula]] and
 [Dr. Akilan Thangarajah]. December, 2022.
 
-![](https://github.com/HemangParmar17/GNN-based-Object-Detection-and-Tracking-for-Visual-Perception/Visualization/MOT17Segmentation.gif)
+![MOT17Segmentation](https://user-images.githubusercontent.com/95194114/208705240-c3226768-0a8e-4b86-b293-3339ab9a40ee.gif)
 
 1. Clone and enter the repository
 
