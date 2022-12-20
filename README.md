@@ -4,7 +4,7 @@ This the official implementation of our paper GNN-based Object Detection and Tra
 [Dr. Akilan Thangarajah]. December, 2022.
 
 <p align="center">
-![MOT17Segmentation](https://user-images.githubusercontent.com/95194114/208705240-c3226768-0a8e-4b86-b293-3339ab9a40ee.gif)
+   ![MOT17Segmentation](https://user-images.githubusercontent.com/95194114/208705240-c3226768-0a8e-4b86-b293-3339ab9a40ee.gif)
 </p>
 1. Clone and enter the repository
 
